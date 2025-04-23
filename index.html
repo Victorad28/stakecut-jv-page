@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Write. Launch. Profit. - Affiliate Program</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;900&family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --primary: #2563eb;
+      --primary-dark: #1d4ed8;
+      --accent: #f59e0b;
+      --highlight: #10b981;
+      --danger: #ef4444;
+      --light-bg: #f8fafc;
+      --dark-bg: #0f172a;
+    }
+    
+    body {
+      font-family: 'Inter', sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+      background: var(--light-bg);
+      color: #1e293b;
+    }
+    
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 20px;
+    }
+    
+    /* Header Styles */
+    .header {
+      background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
+      color: white;
+      padding: 60px 0;
+      text-align: center;
+    }
+    
+    h1, h2, h3 {
+      font-family: 'Montserrat', sans-serif;
+    }
+    
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 20px;
+    }
+    
+    /* Button Styles */
+    .btn {
+      display: inline-block;
+      padding: 12px 24px;
+      background: var(--primary);
+      color: white;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: 600;
+      transition: all 0.3s ease;
+      margin: 10px 5px;
+    }
+    
+    .btn:hover {
+      background: var(--primary-dark);
+      transform: translateY(-2px);
+    }
+    
+    .btn-accent {
+      background: var(--accent);
+    }
+    
+    .btn-accent:hover {
+      background: #e67e22;
+    }
+    
+    /* Card Styles */
+    .card {
+      background: white;
+      border-radius: 12px;
+      padding: 30px;
+      margin: 20px 0;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+    }
+    
+    /* Testimonial Styles */
+    .testimonial {
+      font-style: italic;
+      position: relative;
+      padding: 0 30px;
+    }
+    
+    .testimonial:before, .testimonial:after {
+      content: '"';
+      font-size: 3rem;
+      color: var(--accent);
+      opacity: 0.3;
+      position: absolute;
+    }
+    
+    /* Responsive Grid */
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 20px;
+    }
+    
+    /* Badges */
+    .badge {
+      display: inline-block;
+      padding: 6px 12px;
+      border-radius: 4px;
+      font-weight: bold;
+      font-size: 0.9rem;
+    }
+    
+    .badge-primary {
+      background: var(--primary);
+      color: white;
+    }
+    
+    .badge-accent {
+      background: var(--accent);
+      color: white;
+    }
+    
+    /* Dark Mode Support */
+    [data-theme="dark"] body {
+      background: var(--dark-bg);
+      color: #f1f5f9;
+    }
+    
+    [data-theme="dark"] .card {
+      background: #1e293b;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+    }
+  </style>
+</head>
+<body>
+  <!-- Header Section -->
+  <header class="header">
+    <div class="container">
+      <div class="badge badge-accent">Limited to first 100 affiliates</div>
+      <h1>Join the "Write. Launch. Profit." Affiliate Program</h1>
+      <p class="subtitle">Earn 50% Commission Promoting the $5 eBook That Made $20K in 30 Days</p>
+      <a href="#signup" class="btn btn-accent">Get Started Now</a>
+    </div>
+  </header>
+
+  <!-- Commission Structure -->
+  <section class="container">
+    <div class="card">
+      <h2>💰 Commission Structure</h2>
+      <p><strong>Base Rate:</strong> 50% ($2.50 per $5 sale)</p>
+      <p><strong>Tiered Bonuses:</strong></p>
+      <ul>
+        <li>🥉 <strong>10+ sales:</strong> 60% + Featured in our newsletter</li>
+        <li>🥈 <strong>50+ sales:</strong> 70% + Free coaching call</li>
+        <li>🥇 <strong>Top performer:</strong> 80% + Your link pinned for 1 week</li>
+      </ul>
+      <a href="#" class="btn">View Real-Time Dashboard</a>
+    </div>
+  </section>
+
+  <!-- Resource Kit -->
+  <section class="container">
+    <div class="card">
+      <h2>📥 One-Click Resource Kit</h2>
+      <p>Everything you need to start promoting right away:</p>
+      <a href="#" class="btn btn-accent">Download Full Affiliate Toolkit (ZIP)</a>
+      <p><small>Includes all assets listed below</small></p>
+    </div>
+  </section>
+
+  <!-- Ad Creatives -->
+  <section class="container">
+    <div class="card">
+      <h2>🖼️ Proven Ad Creatives</h2>
+      
+      <h3>High-Converting Banners:</h3>
+      <div class="grid">
+        <a href="#" class="btn">300x250 Banner</a>
+        <a href="#" class="btn">728x90 Banner</a>
+        <a href="#" class="btn">Instagram Story Pack</a>
+      </div>
+      
+      <h3>Top-Performing Ad Copy:</h3>
+      <div class="card" style="background: #f8fafc; font-family: monospace;">
+        🚀 From Burger Flipper to $20K/Month Author<br>
+        This 16-year-old used 3 dumb-simple steps to:<br>
+        ✅ Make $4,217 in 30 days<br>
+        ✅ ZERO writing experience<br>
+        ✅ No ads or "rah-rah" motivation<br>
+        See June PayPal proof → [LINK]
+      </div>
+      <a href="#" class="btn">Copy to Clipboard</a>
+    </div>
+  </section>
+
+  <!-- Email Swipes -->
+  <section class="container">
+    <div class="card">
+      <h2>✉️ Done-For-You Emails</h2>
+      <p><strong>Swipes That Convert 3.8%+:</strong></p>
+      
+      <div class="card" style="background: #f8fafc;">
+        <p><strong>Subject:</strong> "Your $20K/month cheat sheet (3 steps)"</p>
+        <p><strong>Preview:</strong> "I looked at 217 'make money online' systems. This 27-page eBook outperformed them all..."</p>
+      </div>
+      <a href="#" class="btn">Copy Email #1</a>
+      
+      <div class="card" style="background: #f8fafc; margin-top: 20px;">
+        <p><strong>Subject:</strong> "Spoiler: This isn't another 'get rich slow' scheme"</p>
+        <p><strong>Preview:</strong> "The YouTube gurus won't show you these PayPal screenshots..."</p>
+      </div>
+      <a href="#" class="btn">Copy Email #2</a>
+      
+      <a href="#" class="btn btn-accent" style="margin-top: 20px;">Download Full Email Sequence (5 Swipes)</a>
+    </div>
+  </section>
+
+  <!-- Social Proof -->
+  <section class="container">
+    <div class="card">
+      <h2>🎥 Social Proof Pack</h2>
+      <p>Convert with credibility using these assets:</p>
+      <div class="grid">
+        <a href="#" class="btn">Watch 90-Sec Testimonial</a>
+        <a href="#" class="btn">Download Proof Pack</a>
+      </div>
+      
+      <h3 style="margin-top: 30px;">Embeddable Widget:</h3>
+      <div class="card" style="background: #f8fafc; font-family: monospace;">
+        &lt;!-- Paste this where you want testimonials --&gt;<br>
+        &lt;div class="testimonial-carousel" data-product="wlp-ebook"&gt;&lt;/div&gt;<br>
+        &lt;script src="https://cdn.yourdomain.com/widget.js"&gt;&lt;/script&gt;
+      </div>
+      <a href="#" class="btn">Copy Embed Code</a>
+    </div>
+  </section>
+
+  <!-- Promotion Strategies -->
+  <section class="container">
+    <div class="card">
+      <h2>📈 Promotion Strategies That Work</h2>
+      <h3>Best Traffic Sources:</h3>
+      
+      <div class="card" style="background: #f8f9fa;">
+        <h4>🟢 Cold Traffic</h4>
+        <p>Use the "$20K PayPal Proof" banner + this hook:</p>
+        <p><em>"Here's what happens when you ignore 'expert' advice..."</em></p>
+      </div>
+      
+      <div class="card" style="background: #f8f9fa; margin-top: 15px;">
+        <h4>🟢 Email Lists</h4>
+        <p>Send the <strong>"60-Day Guarantee" email</strong> (converts 4.1%)</p>
+        <a href="#" class="btn">Copy Guarantee Swipe</a>
+      </div>
+      
+      <div class="card" style="background: #f8f9fa; margin-top: 15px;">
+        <h4>🟢 YouTube Shorts</h4>
+        <p>Use this script:</p>
+        <p><em>"I thought eBooks were dead... until THIS 3-step loophole banked me $20K. (Step #2 will shock you)"</em></p>
+        <a href="#" class="btn">Download Hook Templates</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Limited Time Offer -->
+  <section class="container">
+    <div class="card" style="background: #ef4444; color: white;">
+      <h2>⏳ 48-HOUR BONUS</h2>
+      <p><strong>First 20 affiliates get 10 FREE buyer testimonials to use in ads!</strong></p>
+      <a href="#signup" class="btn" style="background: white; color: #ef4444;">Lock In Bonuses Now</a>
+    </div>
+  </section>
+
+  <!-- Signup Section -->
+  <section id="signup" class="container">
+    <div class="card">
+      <h2>📌 Get Started in 30 Seconds</h2>
+      <div class="grid">
+        <a href="#" class="btn btn-accent">Sign Up on Stakecut</a>
+        <a href="#" class="btn">Grab Your Affiliate Links</a>
+        <a href="#" class="btn">Start Promoting With Our Toolkit</a>
+      </div>
+      
+      <h3 style="margin-top: 40px;">Need Help?</h3>
+      <p>📧 Email: affiliates@yourdomain.com</p>
+      <p>💬 Discord: <a href="#">Join Our Affiliate Chat</a></p>
+    </div>
+  </section>
+
+  <!-- Theme Toggle -->
+  <button class="theme-toggle" style="position: fixed; bottom: 20px; right: 20px; width: 50px; height: 50px; border-radius: 50%; background: var(--primary); color: white; border: none; cursor: pointer;">
+    <i class="fas fa-moon"></i>
+  </button>
+
+  <script>
+    // Theme toggle functionality
+    const themeToggle = document.querySelector('.theme-toggle');
+    const html = document.documentElement;
+    
+    themeToggle.addEventListener('click', () => {
+      const currentTheme = html.getAttribute('data-theme');
+      const newTheme = currentTheme === 'light' ? 'dark' : 'light';
+      html.setAttribute('data-theme', newTheme);
+      
+      themeToggle.innerHTML = newTheme === 'light' 
+        ? '<i class="fas fa-moon"></i>' 
+        : '<i class="fas fa-sun"></i>';
+    });
+    
+    // Copy buttons functionality
+    document.querySelectorAll('.btn').forEach(btn => {
+      if (btn.textContent.includes('Copy')) {
+        btn.addEventListener('click', (e) => {
+          e.preventDefault();
+          const textToCopy = e.target.previousElementSibling.textContent;
+          navigator.clipboard.writeText(textToCopy);
+          e.target.textContent = 'Copied!';
+          setTimeout(() => {
+            e.target.textContent = btn.textContent.includes('Email') ? 'Copy Email' : 'Copy to Clipboard';
+          }, 2000);
+        });
+      }
+    });
+  </script>
+</body>
+</html>
